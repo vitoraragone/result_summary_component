@@ -1,0 +1,44 @@
+.light-red-text {
+  color:hsl(0, 100%, 67%);
+}
+
+.light-red-background {
+  background-color:hsl(0, 100%, 67%, 0.15);
+}
+
+.rangey-yellow-text {
+  color: hsl(39, 100%, 56%);
+}
+
+.rangey-yellow-background {
+  background-color: hsl(39, 100%, 56%, 0.15)
+}
+
+.green-teal-text {
+  color: hsl(166, 100%, 37%);
+}
+
+.green-teal-background {
+background-color: hsl(166, 100%, 37%, 0.15);
+}
+
+.cobalt-blue-text {
+  color: hsl(234, 85%, 45%);
+} 
+
+.cobalt-blue-background {
+  background-color: hsl(234, 85%, 45%, 0.15);
+}
+
+
+@media (max-width: 550px) {
+  .card {
+    grid-template-columns: 1fr
+  }
+}
+
+ /* css reset */
+ * {
+  margin: 0;
+  padding: 0;
+}

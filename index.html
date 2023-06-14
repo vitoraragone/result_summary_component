@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Result Summary Component" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Result Summary Component</title>
+  </head>
+  <body>
+    <main>
+      <section class="card-bg">
+        <div class="card">
+          <div class="card-result">
+            <h1>Your Result</h1>
+            <div class="score">
+              <span>76</span>
+              <p>of 100</p>
+            </div>
+            <h2>Great</h2>
+            <p>
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+          <div class="card-summary">
+            <h1>Summary</h1>
+            <ul>
+              <li class="light-red-background">
+                <div class="card-summary-item">
+                  <img
+                    src="./assets/images/icon-reaction.svg"
+                    alt="bolt icon"
+                  />
+                  <p class="light-red-text">Reaction</p>
+                </div>
+                <p><strong>80</strong> / 100</p>
+              </li>
+              <li class="rangey-yellow-background">
+                <div class="card-summary-item">
+                  <img src="./assets/images/icon-memory.svg" alt="brain icon" />
+                  <p class="rangey-yellow-text">Memory</p>
+                </div>
+                <p><strong>92</strong> / 100</p>
+              </li>
+              <li class="green-teal-background">
+                <div class="card-summary-item">
+                  <img
+                    src="./assets/images/icon-verbal.svg"
+                    alt="talkbox icon"
+                  />
+                  <p class="green-teal-text">Verbal</p>
+                </div>
+                <p><strong>61</strong> / 100</p>
+              </li>
+              <li class="cobalt-blue-background">
+                <div class="card-summary-item">
+                  <img src="./assets/images/icon-visual.svg" alt="eye icon" />
+                  <p class="cobalt-blue-text">Visual</p>
+                </div>
+                <p><strong>72</strong> / 100</p>
+              </li>
+            </ul>
+            <div>
+              <a class="button" href="#">Continue</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
